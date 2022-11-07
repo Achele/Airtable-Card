@@ -5,10 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Airtable Card</title>
+    <style>
+      main {
+        background-color: skyblue;
+        padding: 1em;
+      }
+      header {
+        background-color: dodgerblue;
+        color: white;
+        padding: 1em;
+      }
+      header p {
+        margin: 0;
+      }
+      div {
+        border: 1px solid;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        padding: 0 0.5em;
+      }
+      div p {
+        /* margin-left: .5em; */
+      }
+    </style>
   </head>
   <body>
-    <main>
+    <header>
       <p>Most popular</p>
+    </header>
+    <main>
       <h2>Pro</h2>
       <div>
         <h1>$20</h1>
@@ -27,7 +53,7 @@
         <li>Personal & locked views</li>
         <li>Field & table editing permissions</li>
       </ul>
-      <h3>ALL FEATURES</h3>
+      <p>ALL FEATURES</p>
     </main>
   </body>
 </html>
