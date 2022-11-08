@@ -23,12 +23,32 @@
         display: flex;
         align-items: center;
         padding: 0 0.5em;
+        margin: 0 2em;
       }
       div h1 {
         margin-right: 0.3em;
       }
       li {
         list-style: none;
+      }
+      button {
+        background-color: dodgerblue;
+        color: whitesmoke;
+        padding: 1em 2em;
+        border-radius: 1.8em;
+        border: none;
+        margin: 0 2.7em;
+      }
+      .margin {
+        margin: 0 2em;
+      }
+      #pro {
+        margin: 0.5em 1.3em;
+      }
+      .features {
+        color: rgb(44, 42, 42);
+        font-size: 0.7em;
+        margin: 0 3em;
       }
     </style>
   </head>
@@ -37,8 +57,12 @@
       <p>Most popular</p>
     </header>
     <main>
-      <h2>Pro</h2>
-      <div>
+      <h2 id="pro">Pro</h2>
+      <p class="margin">
+        For teams and departments who need to build connected apps to power
+        their most important processes
+      </p>
+      <div class="margin">
         <h1>$20</h1>
         <p>per seat /month billed annually</p>
       </div>
@@ -55,7 +79,7 @@
         <li>Personal & locked views</li>
         <li>Field & table editing permissions</li>
       </ul>
-      <p>ALL FEATURES</p>
+      <p class="margin features">ALL FEATURES</p>
     </main>
   </body>
 </html>
